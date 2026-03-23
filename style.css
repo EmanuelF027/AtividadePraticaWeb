@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+#sobre,
+#formacao,
+#portfolio,
+#contato{
+scroll-margin-top:100px;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
