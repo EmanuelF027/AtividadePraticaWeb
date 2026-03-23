@@ -1,0 +1,120 @@
+<title>Portfólio Pessoal - Emanuel Ferreira da Silva</title>
+Emanuel Ferreira da Silva
+
+<nav aria-label="Menu principal">
+  <ul class="menu">
+    <li><a href="#sobre">Sobre mim</a></li>
+    <li><a href="#formacao">Formação</a></li>
+    <li><a href="#portfolio">Portfólio</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<section id="sobre" class="secao destaque">
+  <div class="container">
+    <h2>Sobre mim</h2>
+    <p>
+      Sou Coordenador de Suprimentos na empresa Sabor Vitória Alimentação, com experiência em prospecção, negociação, gestão de estoque e apoio em manutenção e inauguração de unidades. Tenho domínio do sistema TEKNISA, utilizado para organizar processos e informações da área de suprimentos.
+    </p>
+    <p>
+      Estou em transição para a área de tecnologia, estudando programação, inglês e inteligência artificial de forma autodidata, com foco em unir minha experiência em gestão de suprimentos a soluções tecnológicas que melhorem processos e eficiência operacional.
+    </p>
+  </div>
+</section>
+
+<section id="formacao" class="secao destaque">
+  <div class="container">
+    <h2>Formação</h2>
+
+    <h3>Formação acadêmica</h3>
+    <p>
+      Cursando graduação na área de tecnologia, adquirindo conhecimentos em criação de páginas web, HTML, CSS e JavaScript.
+    </p>
+
+    <h3>Conhecimentos em desenvolvimento web</h3>
+    <ul>
+      <li>HTML5 para estruturação de páginas</li>
+      <li>CSS3 para estilização e organização visual</li>
+      <li>JavaScript para interações e validações</li>
+      <li>Git e GitHub para versionamento de projetos</li>
+      <li>Visual Studio Code como ambiente de desenvolvimento</li>
+    </ul>
+
+    <h3>Aprendizado contínuo</h3>
+    <p>
+      Estudo de forma autodidata programação, inglês e inteligência artificial, buscando ampliar a visão sobre o uso da tecnologia em gestão, análise de dados e melhoria de processos.
+    </p>
+
+    <h3>Perfil profissional</h3>
+    <p>
+      Sou analítico, organizado, estratégico e comprometido com resultados. Valorizo autonomia, trabalho em equipe e soluções criativas para problemas do dia a dia.
+    </p>
+  </div>
+</section>
+
+<section id="portfolio" class="secao">
+  <div class="container">
+    <h2>Portfólio</h2>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Portfólio pessoal online</h3>
+        <p>
+          Desenvolvimento de página pessoal com HTML, CSS e JavaScript, organizada em seções com menu de navegação, para apresentar informações acadêmicas e profissionais.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Formulário com validação</h3>
+        <p>
+          Criação de formulário de contato com validação em JavaScript e exibição de mensagem de confirmação ao usuário.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Exercícios com tabelas em HTML</h3>
+        <p>
+          Desenvolvimento de atividades com tabelas simples e complexas, aplicando organização de linhas e colunas, <code>colspan</code>, <code>rowspan</code> e noções de acessibilidade para apresentação de dados.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="secao destaque">
+  <div class="container">
+    <h2>Contato</h2>
+    <p>
+      Preencha o formulário abaixo para entrar em contato.
+    </p>
+
+    <form id="formContato" novalidate>
+      <div class="grupo-campo">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <small class="erro" id="erroNome"></small>
+      </div>
+
+      <div class="grupo-campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        <small class="erro" id="erroEmail"></small>
+      </div>
+
+      <div class="grupo-campo">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        <small class="erro" id="erroMensagem"></small>
+      </div>
+
+      <button type="submit">Enviar mensagem</button>
+      <p id="mensagemSucesso" class="sucesso" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  Desenvolvido por Emanuel Ferreira da Silva
+</footer>
+
+<script src="script.js"></script>
