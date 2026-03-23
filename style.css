@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005fa3;
+}
+
+/* Container padrão */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header.topo {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+header nav ul.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+header nav ul.menu li a {
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+/* Seções */
+.secao {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.secao.destaque {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.secao h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.secao h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.secao p {
+  margin-bottom: 15px;
+}
+
+.secao ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+}
+
+/* Portfólio Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Formulário de Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.grupo-campo label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.grupo-campo input,
+.grupo-campo textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.grupo-campo input:focus,
+.grupo-campo textarea:focus {
+  outline: none;
+  border-color: #0077cc;
+}
+
+button[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+small.erro {
+  color: #cc0000;
+  font-size: 0.8rem;
+  display: block;
+}
+
+p.sucesso {
+  color: #007700;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header nav ul.menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
