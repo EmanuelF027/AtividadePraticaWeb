@@ -44,8 +44,8 @@ Abra o arquivo `index.html` em qualquer navegador moderno.
 ## Contato
 
 E-mail: [027emanuelf@gmail.com](mailto:027emanuelf@gmail.com)
-LinkedIn: linkedin.com/in/emanuelf027
-Instagram: instagram.com/emanuelf027
+LinkedIn: [linkedin.com/in/emanuelf027]
+Instagram: [instagram.com/emanuelf027]
 
 ## Licença
 
