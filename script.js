@@ -69,3 +69,50 @@ function validarFormulario(event) {
 
 // Adiciona evento de submit
 form.addEventListener('submit', validarFormulario);
+
+// ANIMAÇÃO DOS CARDS AO ROLAR A PÁGINA
+
+const cards = document.querySelectorAll(".card");
+
+function mostrarCards() {
+
+  cards.forEach(card => {
+
+    const posicao = card.getBoundingClientRect().top;
+    const alturaTela = window.innerHeight;
+
+    if (posicao < alturaTela - 100) {
+      card.classList.add("mostrar");
+    }
+
+  });
+
+}
+
+window.addEventListener("scroll", mostrarCards);
+
+mostrarCards();
+
+
+// BOTÃO VOLTAR AO TOPO
+
+const btnTopo = document.getElementById("btnTopo");
+
+window.addEventListener("scroll", function () {
+
+  if (window.scrollY > 300) {
+    btnTopo.style.display = "block";
+  } else {
+    btnTopo.style.display = "none";
+  }
+
+});
+
+btnTopo.addEventListener("click", function () {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+});
