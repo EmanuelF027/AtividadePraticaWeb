@@ -1,37 +1,63 @@
-# Portfólio Pessoal - Emanuel Ferreira da Silva
+# Portfólio Pessoal — Emanuel Ferreira da Silva
 
-Este portfólio foi desenvolvido por Emanuel Ferreira da Silva como projeto prático para a disciplina de Fundamentos da Programação Web. O objetivo é apresentar habilidades em desenvolvimento web, experiência profissional e projetos acadêmicos de forma organizada e acessível.
+Este portfólio foi desenvolvido como projeto prático da disciplina **Fundamentos da Programação Web**. O objetivo é apresentar habilidades iniciais em desenvolvimento web, além de organizar informações profissionais e projetos acadêmicos em uma página simples, responsiva e funcional.
 
-## Tecnologias Utilizadas
+---
 
-HTML5 – Estrutura semântica da página
-CSS3 – Estilização, responsividade e layout com cards
-JavaScript (Vanilla) – Validação de formulário, animação de cards e botão voltar ao topo
+# Tecnologias Utilizadas
 
-## Estrutura do Projeto
+* **HTML5** — Estrutura semântica da página
+* **CSS3** — Estilização, layout responsivo e cards interativos
+* **JavaScript (Vanilla)** — Validação de formulário, animação de cards e botão voltar ao topo
 
-index.html        # Página principal
-style.css         # Estilos e layout
-script.js         # Funcionalidades em JavaScript
-assets/           # (Opcional) imagens e ícones
+---
 
-## Seções da Página
+# Estrutura do Projeto
 
-Sobre mim – Apresentação profissional e objetivos
-Formação – Graduação, cursos e habilidades em desenvolvimento web
-Portfólio – Exemplos de projetos com HTML, CSS e JavaScript
-Contato – Formulário funcional com validação e feedback visual
+```text
+AtividadePraticaWeb/
+│
+├── index.html        # Página principal
+├── style.css         # Estilos e layout do site
+├── script.js         # Funcionalidades em JavaScript
+└── assets/           # (Opcional) imagens e ícones
+```
 
-## Funcionalidades
+---
+
+# Seções da Página
+
+### Sobre mim
+
+Apresentação profissional, experiência e objetivos de carreira.
+
+### Formação
+
+Informações acadêmicas e conhecimentos em desenvolvimento web.
+
+### Portfólio
+
+Exemplos de projetos e exercícios desenvolvidos com HTML, CSS e JavaScript.
+
+### Contato
+
+Formulário funcional com validação de campos e feedback visual para o usuário.
+
+---
+
+# Funcionalidades Implementadas
 
 * Menu de navegação fixo e responsivo
-* Cards de portfólio interativos
+* Scroll suave entre seções
+* Cards de portfólio com animação ao rolar a página
 * Formulário de contato com validação de campos
-* Feedback visual de erros e mensagem de sucesso
-* Botão de voltar ao topo
-* Design minimalista e responsivo
+* Mensagens de erro e confirmação de envio
+* Botão **voltar ao topo** da página
+* Layout minimalista e responsivo
 
-## Como Usar
+---
+
+# Como Utilizar
 
 Clone o repositório:
 
@@ -39,14 +65,20 @@ Clone o repositório:
 git clone https://github.com/EmanuelF027/AtividadePraticaWeb.git
 ```
 
-Abra o arquivo `index.html` em qualquer navegador moderno.
+Abra o arquivo **index.html** em qualquer navegador moderno.
 
-## Contato
+Certifique-se de que os arquivos **style.css** e **script.js** estejam na mesma pasta que o arquivo **index.html**.
 
-E-mail: [027emanuelf@gmail.com](mailto:027emanuelf@gmail.com)
-LinkedIn: [linkedin.com/in/emanuelf027]
-Instagram: [instagram.com/emanuelf027]
+---
 
-## Licença
+# Contato
 
-Projeto pessoal para fins educativos.
+**E-mail:** [027emanuelf@gmail.com](mailto:027emanuelf@gmail.com)
+**LinkedIn:** linkedin.com/in/emanuelf027
+**Instagram:** instagram.com/emanuelf027
+
+---
+
+# Licença
+
+Projeto desenvolvido para fins educacionais.
