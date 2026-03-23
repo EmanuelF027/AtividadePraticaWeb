@@ -33,12 +33,14 @@ Este é o portfólio pessoal de Emanuel Ferreira da Silva, desenvolvido como pro
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/seu-usuario/portfolio-pessoal.git
-Abra o arquivo index.html em qualquer navegador moderno
-Certifique-se de que style.css e script.js estão na mesma pasta que index.html
+2.Abra o arquivo index.html em qualquer navegador moderno
+3.Certifique-se de que style.css e script.js estão na mesma pasta que index.html
+
 Contato
 E-mail: 027emanuelf@gmail.com
 LinkedIn: linkedin.com/in/emanuelf027
 Instagram: instagram.com/emanuelf027
+
 Licença
 
 Projeto pessoal para fins educativos. Para uso comercial ou redistribuição, favor entrar em contato com o autor.
